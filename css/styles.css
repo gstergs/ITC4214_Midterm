@@ -1,0 +1,22 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header.dark-mode, footer.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.table-dark {
+    background-color: #1e1e1e;
+}
+
+.btn-dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.btn-dark-mode:hover {
+    background-color: #555555;
+}
