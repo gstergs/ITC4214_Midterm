@@ -1,22 +1,120 @@
-body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
+/* Custom styles */
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Default text color */
+    min-height: 100vh; /* Ensure full viewport height */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Column layout */
 }
 
-header.dark-mode, footer.dark-mode {
-    background-color: #333333;
-    color: #ffffff;
+/* Avatar biography card */
+.avatar-bio-card {
+    background-color: #ffffff; /* White background */
+    border: none; /* No border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center; /* Center align content */
+    padding: 20px; /* Padding around content */
+    margin: auto; /* Center horizontally */
+    max-width: 700px; /* Limit max width */
 }
 
-.table-dark {
-    background-color: #1e1e1e;
+/* Avatar image */
+.avatar-img {
+    max-width: 150px; /* Limit max width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Rounded corners */
+    margin: auto; /* Center horizontally */
+    margin-bottom: 10px; /* Space below */
 }
 
+/* Main heading */
+.main-heading {
+    color: #6f42c1; /* Deep purple text color */
+    font-size: 2.5rem; /* Larger font size */
+    font-weight: 700; /* Bold font weight */
+    text-align: center; /* Center align */
+    margin-top: 50px; /* Space above */
+}
+
+/* Dark mode button */
 .btn-dark-mode {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #6f42c1; /* Deep purple button background */
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
 }
 
+/* Dark mode button hover */
 .btn-dark-mode:hover {
-    background-color: #555555;
+    background-color: #5c309f; /* Darker purple on hover */
+}
+
+/* Carousel */
+.carousel {
+    margin-top: 30px; /* Space between carousel and main heading */
+}
+
+/* Footer */
+.footer {
+    background-color: #333333; /* Dark background */
+    color: #ffffff; /* White text color */
+    font-size: 14px; /* Smaller font size */
+    padding: 20px 0; /* Padding top and bottom */
+    width: 100%; /* Full width */
+    text-align: center; /* Center align */
+    margin-top: auto; /* Push to bottom */
+}
+
+/* Footer links */
+.footer a {
+    color: #ffffff; /* White text color for links */
+    margin: 0 10px; /* Margin between links */
+}
+
+/* Dark Mode Styles */
+
+/* Dark mode body */
+.dark-mode {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text color */
+}
+
+/* Dark mode biography card */
+.dark-mode .avatar-bio-card {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text color */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Soft shadow */
+}
+
+/* Dark mode main heading */
+.dark-mode .main-heading {
+    color: #6f42c1; /* Deep purple text color */
+}
+
+/* Dark mode button */
+.dark-mode .btn-dark-mode {
+    background-color: #6f42c1; /* Deep purple button background */
+    color: #ffffff; /* White text color */
+}
+
+/* Dark mode button hover */
+.dark-mode .btn-dark-mode:hover {
+    background-color: #5c309f; /* Darker purple on hover */
+}
+
+/* Dark mode footer */
+.dark-mode .footer {
+    background-color: #222222; /* Dark background */
+}
+
+/* Dark mode footer links */
+.dark-mode .footer a {
+    color: #ffffff; /* White text color for links */
+}
+
+/* Adjusting pop-up text color for dark mode */
+.popup-content {
+    color: #333; /* Black text color for pop-up content */
 }
